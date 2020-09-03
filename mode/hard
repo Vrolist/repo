@@ -1,4 +1,4 @@
-git reset --hard head~1
+git reset --hard HEAD~1
 
 
 hard是默认模式

@@ -1,0 +1,3 @@
+git diff           比较工作区的修改，并且是没有添加的修改
+git diff --cached  比较暂存区和仓库的不同
+git diff HEAD      比较工作区和仓库的不同

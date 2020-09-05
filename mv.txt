@@ -1,2 +1,2 @@
-git mv
+git mv old-filename new-filename
 

@@ -1,5 +1,10 @@
-git rm filename
+git rm filename              删除暂存区和工作的文件。
 
-git rm --cached filename
+git rm --cached filename     删除暂存区的文件，工作区的保持不变【可以作为add操作的撤回】。
 
-git rm -f filename
+git rm -f filename           强制删除暂存区和工作区的文件，如果两者不一致，则是用-f强制删除。
+
+git rm -f --cached filename  强制删除暂存区的文件，工作区不变。-f是暂存区和工作区不一致的使用使用。
+
+
+这里删除，都是针对于工作区和暂存区的操作，版本库中的文件，不会做删除操作。

@@ -4,3 +4,7 @@ git checkout -B branch_name   如果目标分支不存在，则新建；如果�
 
 
 git checkout -b branch_name start_point  从指定的版本库节点start_point，创建新的分支branch_name。
+
+
+git checkout --orphan branch_name 从当前所在分支，新建一个裸分支branch_name。
+【裸分支和其他分支没有什么不同，就是裸分支一开始的时候，没有父分支的commit提交记录。】

@@ -1,0 +1,2 @@
+将dev分支，合并到master分支上，则需要：
+在master分支上，执行 git merge dev   理解：站在master分支上，将dev分支，拉过来合并

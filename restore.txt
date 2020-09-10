@@ -1,0 +1,4 @@
+git rm filename          删除文件
+
+git restore -S filename  恢复到暂存区
+git restore filename     恢复到工作区

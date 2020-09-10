@@ -1,0 +1,5 @@
+git diff HEAD~2 HEAD      对比之前的第二个版本和当前版本的不同
+
+git diff HEAD HEAD~2      对比当前版本和之前的第二个版本的不同
+
+git diff HEAD HEAD~2 qqq  对比当前版本和之前第二个版本的qqq文件的差异

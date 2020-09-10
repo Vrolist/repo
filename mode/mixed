@@ -1,0 +1,4 @@
+git reset --mixed HEAD~1
+
+mixed是默认模式
+使用mixed模式回退版本，HEAD会被覆盖；暂存区会被覆盖；工作区不会被覆盖；

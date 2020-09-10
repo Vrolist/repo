@@ -1,0 +1,30 @@
+c
+ccc
+c 4
+c 5
+
+回退命令：git reset <commit值，可以缩写>
+
+
+Log示例：
+commit 9a2b879325d0b72a1c2413ab930f0c9ac166ac79 (HEAD -> master)
+Author: buladou <kellyhu112@qq.com>
+Date:   Fri Sep 4 20:08:59 2020 +0800
+
+    c 6
+
+commit 036366b5aef09fe376e5948453f7a260f4874a13
+Author: buladou <kellyhu112@qq.com>
+Date:   Fri Sep 4 20:07:01 2020 +0800
+
+    ccccc 3
+
+commit a1de28c72b12075e3770ffe127cdb6c538fe4325
+Author: buladou <kellyhu112@qq.com>
+Date:   Fri Sep 4 20:03:03 2020 +0800
+
+    c 1
+
+commit 0e9c40feb31d8141a7703cbf37c5625812d401b8
+Author: buladou <kellyhu112@qq.com>
+Date:   Thu Sep 3 22:19:25 2020 +0800

@@ -1,0 +1,5 @@
+git restore .     工作区修改和删除的文件，全部从暂存区恢复
+git checkout .    工作区修改和删除的文件，全部从暂存区恢复
+
+
+git checkout      用于分支的新建和切换

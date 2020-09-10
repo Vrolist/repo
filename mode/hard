@@ -1,0 +1,5 @@
+git reset --hard HEAD~1
+
+
+hard是默认模式
+使用hard模式回退版本，HEAD会被覆盖；暂存区会被覆盖；工作区也会被覆盖；

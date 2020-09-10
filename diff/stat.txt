@@ -1,0 +1,9 @@
+git diff HEAD~3 HEAD                 Y
+git diff --stat HEAD~3 HEAD          Y
+git diff HEAD~3 HEAD                 Y
+git diff HEAD~3 HEAD --stat          Y 
+git diff HEAD~3 HEAD ppp --stat      N fatal: option '--stat' must come before non-option arguments
+git diff --stat HEAD~3 HEAD ppp      Y
+
+
+推荐写法 git diff --stat XXX XXX XXX 

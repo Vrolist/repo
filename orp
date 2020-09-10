@@ -5,3 +5,8 @@ commit : orp 1
 commit : orp 2
 
 commit : orp 3
+
+
+git merge --allow-unrelated-histories  branch_name
+合并“非关联的提交历史记录”的两个分支
+只需要操作一次，提交历史记录，会自动合并

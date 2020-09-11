@@ -1,0 +1,8 @@
+git tag -d tag_name tag_name   删除多个标签
+
+
+修改标签名称
+第一步，创建新标签
+git tag -a new_tag_name -m 'new tag message' commit-value
+第二步，删除旧标签
+git tag -d old_tag_name

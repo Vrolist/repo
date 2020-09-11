@@ -1,0 +1,5 @@
+git tag  输出当前仓库的标签名称，没有就不会输出
+
+git tag -a first_tag   创建名称 first_tag 的标签，需要加上message
+
+git tag -a second_tag -m 'second_tag'  创建second_tag，并直接带上message

@@ -1,0 +1,1 @@
+git tag -a tag_name commit-value   指定某个commit记录，打上 tag_name 标签记号

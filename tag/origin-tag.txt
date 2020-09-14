@@ -1,0 +1,4 @@
+git push origin master --tags
+
+
+推送master分支上的 tag标签 到远程仓库的master分支上

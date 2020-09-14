@@ -1,5 +1,8 @@
 git push origin master --tags
+# 推送master分支上的 tag标签 到远程仓库的master分支上
+# 只通过指定单个分支上的标签，推送到远程仓库
 
-
-推送master分支上的 tag标签 到远程仓库的master分支上
-只通过指定单个分支上的标签，推送到远程仓库
+git tag -d tag_name
+git push origin master :refs/tags/tag_name
+# 第一步，删除当前分支的标签
+# 第二步，推送当前分支的空标签到远程，则远程仓库会删除对应的标签

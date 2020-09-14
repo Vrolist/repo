@@ -1,3 +1,7 @@
 git remote add origin git@github.com:Vrolist/repo.git  # 添加远程仓库的地址
 git branch # 查看分支
 git push -u origin master # 推送本地的代码文件到远程仓库
+
+
+git push origin branch_name  # 推送某条分支到远程仓库
+git push origin --all # 推送仓库的全部分支到远程仓库

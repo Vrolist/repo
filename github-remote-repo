@@ -5,3 +5,6 @@ git push -u origin master # 推送本地的代码文件到远程仓库
 
 git push origin branch_name  # 推送某条分支到远程仓库
 git push origin --all # 推送仓库的全部分支到远程仓库
+
+
+git pull  # 拉取远程仓库的更新内容

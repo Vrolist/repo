@@ -1,0 +1,4 @@
+git branch -d branch_name   # 删除本地仓库的 branch_name 分支
+
+
+git push origin --delete branch_name   # 删除远程仓库的 branch_name 分支
